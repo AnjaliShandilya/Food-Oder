@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resto</title>
+  <link rel="stylesheet" href="Style.CSS">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="explore">
+    <ul>
+      <li class="logo">
+        <a href=""><img id="img1" src="image.png"></a>
+      </li>
+      <li class="act"><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-utensils"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-receipt"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-history"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-bell"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-cog"></i></a></li>
+      <li class="act"><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
+    </ul>
+
+
+    <div class="home">
+    <div class="header">
+      <div><h2>Jaegar Resto</h2>
+      <p>Monday, 7 Oct 2024</p></div>
+    <div class="input">
+      <input type="text" id="searchInput"  placeholder= "  Search for food, coffee, etc.">
+    </div>
+  </div>
+
+  <div class="menu">
+    <div class="items"><a href="#" class="active">Hot Dishes</a></div>
+    <div class="items"><a href="#">Cold Dishes</a></div>
+    <div class="items"><a href="#">Soup</a></div>
+    <div class="items"><a href="#">Grill</a></div>
+    <div class="items"><a href="#">Appetizer</a></div>
+    <div class="items"><a href="#">Dessert</a></div>
+  </div>
+
+  <div class="options">
+    <div class="dish-selector">
+        <h3>Choose Dishes</h3>
+    </div>
+      <div class="Chose-one">
+        <select id="dine-options" class="dine-option">
+        <option value="dine-in">Dine In</option>
+        <option value="to-go">To Go</option>
+        <option value="delivery">Delivery</option>
+        </select>
+      </div>
+  </div>
+
+  <div class="dishes">
+    <div class="dish-card">
+        <img src="spaghetti.png" alt="Spaghetti Carbonara">
+        <p>Creamy pasta with pancetta, parmesan, and eggs.</p>
+        <p class="price">$14.99</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="pasta.png" alt="Spaghetti Carbonara">
+      <p>Salted pasta with mushroom sauce.</p>
+      <p class="price">$10.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="dish-card">
+     <img src="spicy-noodles.png" alt="Spaghetti Carbonara">
+     <p>Spicy seasoned seafood noodles.</p>
+     <p class="price">$4.99</p>
+     <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <div class="dishes">
+    <div class="dish-card">
+        <img src="healthy-noodles.png" alt="Spaghetti Carbonara">
+        <p>Healthy noodle with spinach leaf</p>
+        <p class="price">$14.99</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="instant-noodles.png" alt="Spaghetti Carbonara">
+      <p>Spicy instant noodle with special omelette</p>
+      <p class="price">$10.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="dish-card">
+     <img src="sandwich.png" alt="Spaghetti Carbonara">
+     <p>Freshly made sandwich with assorted fillings.</p>
+     <p class="price">$4.99</p>
+     <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="order">
+    <h3>Order#34562</h3>
+    <div class="dine">
+      <div class="dine-in active">Dine In</div>
+      <div class="dine-in">Take Away</div>
+      <div class="dine-in">Delivery</div>
+  </div>
+   
+    <div class="summary-header">
+        <span class="item">Item</span>
+      <span class="quantity">Quantity</span>
+      <span class="price">Price</span>
+  </div>
+
+    <div class="order-item">
+      <div class="item">
+      <img src="spicy-noodles.png" alt="Spicy Noodles">
+      <div class="item-details">
+          <p>Spicy seasoned seafood noodles</p>
+      </div>
+      <div class="item-quantity">
+          <input type="text" placeholder="Please, just a little bit spicy only.">
+          <i class="fas fa-trash-alt"></i>
+      </div>
+    </div>
+    <div class="quantity">1</div>
+      <div class="price">$14.58</div>
+  </div>
+
+  
+  <div class="order-item">
+    <div class="item">
+      <img src="pasta.png" alt="Pasta">
+      <div class="item-details">
+          <p>Salted pasta with mushroom sauce</p>
+      </div>
+      <div class="item-quantity">
+          <input type="text" placeholder="write a note">
+          <i class="fas fa-trash-alt"></i>
+      </div>
+    </div><div class="quantity">1</div>
+    <div class="price">$14.69</div>
+  </div>
+
+  <div class="order-item">
+    <div class="item">
+      <img src="instant-noodles.png" alt="Instant Noodles">
+      <div class="item-details">
+          <p>Spicy instant noodle with special omelette</p>
+      </div>
+      <div class="item-quantity">
+          <input type="text" placeholder="write a note">
+          <i class="fas fa-trash-alt"></i>
+      </div>
+    </div>
+      <div class="quantity">2</div>
+      <div class="price">$10.47</div>
+  </div>
+
+  <div class="order-summary">
+      <div class="summary-item">
+          <span>Discount</span>
+          <span>$0</span>
+      </div>
+      <div class="summary-item total">
+          <span>Total</span>
+          <span>$38.03</span>
+      </div>
+  </div>
+
+  <button class="continue-btn">Continue to Payment</button>
+</div>
+  </div>
+</div>
+  
+</body>
+</html>
